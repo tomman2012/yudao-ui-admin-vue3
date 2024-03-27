@@ -1,3 +1,18 @@
+
+# 安装 pnpm，提升依赖的安装速度
+npm config set registry https://registry.npmjs.org
+npm install -g pnpm
+# 安装依赖
+pnpm install
+
+# 启动服务
+npm run dev
+
+#nodejs版本问题
+nvm  list  获取所有node版本
+nvm use  v16.18.1  使用node版本
+
+
 **严肃声明：现在、未来都不会有商业版本，所有代码全部开源!！**
 
 **「我喜欢写代码，乐此不疲」**  
